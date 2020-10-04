@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header start  */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background-color: #2C3E50;
+    color: #ffffff;
+    padding: 1.5em 0;
+}
+
+.header .logo {
+    float: left;
+    padding: 15px;
+}
+
+.header .menu {
+    float: right;
+}
+
+.header .menu ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+
+/* header end  */
+
+
+/* start start  */
+
+.start {
+    text-align: center;
+    height: 100vh;
+    background-color: #1ABC9C;
+    color: white;
+    padding-top: 50px;
+}
+
+.start img {
+    width: 15em;
+}
+
+.start h1 {
+    font-size: 4rem;
+    margin: 15px 0;
+}
+
+.start i {
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.start p {
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+
+/* start end  */
+
+
+/* portfolio start  */
+
+.portfolio {
+    padding: 5em 0;
+}
+
+.portfolio .port-header {
+    text-align: center;
+    margin: 25px 0;
+    color: #2C3E50;
+}
+
+.portfolio .port-header h1 {
+    font-size: 3rem;
+}
+
+.portfolio .port-item {
+    width: 33.333%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.portfolio .yasil {
+    position: absolute;
+    color: white;
+    background-color: #1ABC9C;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+    width: 92%;
+    height: 89%;
+    padding: 30px;
+    font-size: 150px;
+    font-weight: 900;
+    top: 15px;
+    left: 15px;
+}
+
+.portfolio .yasil:hover {
+    opacity: 0.95;
+}
+
+.portfolio .port-item img {
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+
+/* portfolio end  */
+
+
+/* about start  */
+
+.about {
+    text-align: center;
+    height: 100vh;
+    background-color: #1ABC9C;
+    color: white;
+    padding-top: 50px;
+}
+
+.container2 {
+    width: 50%;
+    margin: auto;
+}
+
+.about h1 {
+    font-size: 3em;
+    margin: 25px 0;
+}
+
+.about i {
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.about .yazi1 {
+    width: 40%;
+    float: left;
+    padding: 70px 0;
+}
+
+.about p {
+    text-align: left;
+    font-size: 1.27em;
+    font-weight: 300;
+}
+
+.about .yazi2 {
+    width: 40%;
+    float: right;
+    padding: 70px 0;
+}
+
+.about button {
+    background-color: #1ABC9C;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.about button:hover {
+    background-color: #fff;
+    color: #2C3E50;
+}
+
+
+/* about end  */
+
+
+/* contact start  */
+
+.contact {
+    text-align: center;
+    /* height: 100vh; */
+    background-color: #fff;
+    color: #2C3E50;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact h1 {
+    font-size: 3rem;
+}
+
+.contact i {
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.contact input {
+    font-size: 1.5rem;
+    margin: 25px 0;
+    padding: 30px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.contact button {
+    background-color: #1ABC9C;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.contact button:hover {
+    background-color: #249b83;
+}
+
+
+/* contact end  */
+
+
+/* location start  */
+
+.location {
+    text-align: center;
+    height: 50vh;
+    background-color: #2C3E50;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.location .box {
+    float: left;
+    width: 33.333%;
+    padding: 0 10px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.location .box p {
+    font-size: 1.1rem;
+}
